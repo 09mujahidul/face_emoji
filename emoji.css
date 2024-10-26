@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+section{
+    background-color: aquamarine;
+    width: 800px;
+    height: 800px; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    border-radius: 50%;
+    border-top: 40px double red;
+}
+.nav-dono{
+    height: 200px;
+    width: 600px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-eye-1{
+    height: 200px;
+    width: 200px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    border-top: 40px double rgb(43, 28, 28);
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+/*
+.nav-eye-1 {
+  animation: my-eye-out 2s linear 3s infinite ;
+}
+@keyframes my-eye-out {
+  0% {
+    background-color: white;
+  }
+  100% {
+    background-color: rgb(17, 2, 2);
+  }
+}    
+    */
+.nav-eye-in-1{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50px;
+}
+.nav-eye-2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    border-top: 40px double rgb(43, 28, 28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-eye-2-in{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+
+}
+.nav-eye-in-1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(137, 80, 80);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-eye-1-in{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+
+}
+.nav-eye-2-in{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+
+}
+.nav-eye-1-in {
+   
+    animation: my-eye-in 2s linear  infinite;
+  }
+  @keyframes my-eye-in {
+    0% {
+      background-color: white;
+    }
+    50% {
+      background-color: black;
+    }
+    100% {
+      background-color: red;
+    }
+  }
+
+  .nav-eye-2-in {
+   
+    animation: my-eye 2s ease-in  infinite;
+  }
+  @keyframes my-eye {
+    0% {
+      background-color: white;
+    }
+    50% {
+      background-color: greenyellow;
+    }
+    100% {
+      background-color: red;
+    }
+  }
+
+.nav-nose{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+.nav-munh{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.nav-nose-1{
+    height: 200px;
+    width: 100px;
+    border-radius: 50px;
+    border-bottom: 20px double red;
+    border-left: 1px solid red;
+}
+
+
+
+
+.nav-munh-1 {
+    animation: my-munh 1.5s ease-in-out 3s infinite ;
+  }
+  @keyframes my-munh {
+    0% {
+      background-color: white;
+    }
+    100% {
+      background-color: black;
+    }
+  }
+
+.nav-nose-2{
+    height: 200px;
+    width: 100px;
+   
+    border-radius: 50px;
+    border-bottom: 20px double red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
+.nav-munh-1{
+    height: 150px;
+    width: 200px;
+    background-color: NONE;
+    border-radius: 50%;
+    border-bottom: 20px double red;
+    
+}
+.nav-mun{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-neck{
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  border-top: px solid black;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+}
+.nav-body{
+      width: 800px;
+      height: 500px;
+      background-color:aquamarine ;
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      padding-top: 100px;
+}
+.nav-hand-left{
+  width: 100px;
+  height: 300px;
+  border-top-left-radius: 80px;
+  border-top: 60px solid aquamarine;
+  border-left: 60px solid aquamarine;
+}
+.nav-hand-right{
+  width: 100px;
+  height: 300px;
+  border-top-right-radius: 80px;
+  border-top: 60px solid aquamarine;
+  border-right: 60px solid aquamarine;
+}
+footer{
+  display: flex;
+  justify-content: center;
+}
+.nav-body-in-left{
+  height: 50px;
+  width: 300px;
+  background-color: none;
+  border-radius: 50%;
+  border-bottom: 10px double black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-body-in-right{
+  height:50px;
+  width: 300px;
+  background-color: none;
+  border-radius: 50%;
+  border-bottom: 10px double black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav{
+  height: 30px;
+}
+input{
+  background-color: rgb(61, 55, 223);
+  height: 30px;
+  width: 70px;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 30px;
+  border-bottom: 6px double black;
+}
+
+#id-on{
+  animation: myid 1s ease-in 1s infinite;
+}
+@keyframes myid {
+  0%{
+    background-color: chartreuse;
+  }
+  60%{
+    background-color: rgb(123, 13, 157);
+  }
+}
+
+
+#id-off{
+  animation: myoff 1s ease-in 1s infinite;
+}
+@keyframes myoff {
+  0%{
+    background-color: black;
+  }
+  60%{
+    background-color: rgb(218, 17, 17);
+  }
+}
+
+
+
+.nav-pair{
+       display: flex;
+       justify-content: center;
+       justify-content: space-between;
+}
+.nav-pair-left{
+      height: 700px;
+      width: 200px;
+      background-color: aquamarine;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+}
+.nav-pair-right{
+  height: 700px;
+  width: 200px;
+  background-color:  aquamarine;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.nav-pair-mid-1{
+  height: 200px;
+  width: 200px;
+  background-color:none;
+  border-radius: 50%;
+  border-bottom: 40px double black;
+}
+.nav-pair-mid-2{
+  height: 200px;
+  width: 200px;
+  background-color:none;
+  border-radius: 50%;
+  border-bottom: 40px double green;
+}
