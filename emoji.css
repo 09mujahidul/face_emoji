@@ -320,12 +320,12 @@ input{
   width: 200px;
   background-color:none;
   border-radius: 50%;
-  border-bottom: 40px double black;
+  /* border-bottom: 40px double black; */
 }
 .nav-pair-mid-2{
   height: 200px;
   width: 200px;
   background-color:none;
   border-radius: 50%;
-  border-bottom: 40px double green;
+  /* border-bottom: 40px double green; */
 }
