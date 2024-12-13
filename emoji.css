@@ -8,7 +8,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(202, 135, 246);
+    background-color: rgb(169, 65, 239);
 }
 
 section{
@@ -305,7 +305,7 @@ input{
       height: 700px;
       width: 200px;
       background-color: aquamarine;
-      border-bottom-left-radius: 50px;
+      border-bottom-left-radius: 5px;
       border-bottom-right-radius: 50px;
 }
 .nav-pair-right{
@@ -313,7 +313,7 @@ input{
   width: 200px;
   background-color:  aquamarine;
   border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-bottom-right-radius: 5px;
 }
 .nav-pair-mid-1{
   height: 200px;
